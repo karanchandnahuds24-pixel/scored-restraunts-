@@ -1,0 +1,170 @@
+{
+ "n_pcs": 6,
+ "explained_variance": [
+  0.2585,
+  0.2268,
+  0.1603,
+  0.0884,
+  0.0817,
+  0.0646
+ ],
+ "loadings": {
+  "PC1": {
+   "GrowthFactor": -0.011,
+   "AOV": -0.019,
+   "log_scale": 0.177,
+   "COGSRate": 0.244,
+   "OPEXRate": 0.615,
+   "CommissionRate": 0.008,
+   "blended_margin": -0.364,
+   "margin_spread": 0.053,
+   "share_instore": 0.393,
+   "agg_dependence": -0.324,
+   "share_sd": 0.037,
+   "channel_balance": 0.322,
+   "DeliveryRadiusKM": -0.068,
+   "log_headroom": -0.147,
+   "sd_cost_ratio": -0.064
+  },
+  "PC2": {
+   "GrowthFactor": -0.046,
+   "AOV": -0.094,
+   "log_scale": -0.076,
+   "COGSRate": 0.071,
+   "OPEXRate": 0.139,
+   "CommissionRate": -0.101,
+   "blended_margin": -0.129,
+   "margin_spread": -0.454,
+   "share_instore": 0.048,
+   "agg_dependence": -0.01,
+   "share_sd": -0.049,
+   "channel_balance": 0.017,
+   "DeliveryRadiusKM": 0.458,
+   "log_headroom": 0.525,
+   "sd_cost_ratio": 0.485
+  },
+  "PC3": {
+   "GrowthFactor": 0.019,
+   "AOV": 0.024,
+   "log_scale": 0.113,
+   "COGSRate": -0.173,
+   "OPEXRate": -0.284,
+   "CommissionRate": -0.037,
+   "blended_margin": 0.375,
+   "margin_spread": -0.09,
+   "share_instore": 0.166,
+   "agg_dependence": -0.445,
+   "share_sd": 0.592,
+   "channel_balance": 0.373,
+   "DeliveryRadiusKM": 0.07,
+   "log_headroom": 0.029,
+   "sd_cost_ratio": 0.062
+  },
+  "PC4": {
+   "GrowthFactor": 0.717,
+   "AOV": 0.326,
+   "log_scale": 0.254,
+   "COGSRate": -0.001,
+   "OPEXRate": 0.027,
+   "CommissionRate": -0.353,
+   "blended_margin": 0.04,
+   "margin_spread": -0.385,
+   "share_instore": -0.002,
+   "agg_dependence": 0.044,
+   "share_sd": -0.089,
+   "channel_balance": -0.056,
+   "DeliveryRadiusKM": -0.029,
+   "log_headroom": -0.121,
+   "sd_cost_ratio": -0.108
+  },
+  "PC5": {
+   "GrowthFactor": 0.525,
+   "AOV": 0.258,
+   "log_scale": -0.11,
+   "COGSRate": 0.01,
+   "OPEXRate": 0.009,
+   "CommissionRate": 0.475,
+   "blended_margin": -0.08,
+   "margin_spread": 0.514,
+   "share_instore": 0.009,
+   "agg_dependence": -0.043,
+   "share_sd": 0.058,
+   "channel_balance": 0.022,
+   "DeliveryRadiusKM": 0.205,
+   "log_headroom": 0.285,
+   "sd_cost_ratio": 0.139
+  },
+  "PC6": {
+   "GrowthFactor": 0.062,
+   "AOV": -0.407,
+   "log_scale": 0.787,
+   "COGSRate": -0.006,
+   "OPEXRate": -0.125,
+   "CommissionRate": 0.209,
+   "blended_margin": 0.006,
+   "margin_spread": 0.1,
+   "share_instore": -0.038,
+   "agg_dependence": 0.071,
+   "share_sd": -0.09,
+   "channel_balance": -0.09,
+   "DeliveryRadiusKM": 0.153,
+   "log_headroom": -0.166,
+   "sd_cost_ratio": 0.261
+  }
+ },
+ "k_selection": [
+  {
+   "k": 2,
+   "silhouette": 0.215,
+   "davies_bouldin": 1.685,
+   "ARI_kmeans_vs_ward": 0.942
+  },
+  {
+   "k": 3,
+   "silhouette": 0.203,
+   "davies_bouldin": 1.648,
+   "ARI_kmeans_vs_ward": 0.391
+  },
+  {
+   "k": 4,
+   "silhouette": 0.204,
+   "davies_bouldin": 1.467,
+   "ARI_kmeans_vs_ward": 0.716
+  },
+  {
+   "k": 5,
+   "silhouette": 0.199,
+   "davies_bouldin": 1.551,
+   "ARI_kmeans_vs_ward": 0.569
+  },
+  {
+   "k": 6,
+   "silhouette": 0.185,
+   "davies_bouldin": 1.615,
+   "ARI_kmeans_vs_ward": 0.662
+  },
+  {
+   "k": 7,
+   "silhouette": 0.18,
+   "davies_bouldin": 1.677,
+   "ARI_kmeans_vs_ward": 0.665
+  },
+  {
+   "k": 8,
+   "silhouette": 0.182,
+   "davies_bouldin": 1.651,
+   "ARI_kmeans_vs_ward": 0.688
+  }
+ ],
+ "ARI_kmeans_vs_ward_k4": 0.716,
+ "bootstrap_ARI_mean": 0.973,
+ "bootstrap_ARI_min": 0.917,
+ "dbscan_eps": 1.418,
+ "dbscan_outliers": 3,
+ "gpi_sensitivity": {
+  "spearman_mean": 0.811,
+  "spearman_min": 0.347,
+  "top10_overlap_mean": 0.634,
+  "top10_overlap_min": 0.225
+ }
+}
