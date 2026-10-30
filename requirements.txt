@@ -4,4 +4,5 @@ scipy
 scikit-learn
 umap-learn
 plotly
+matplotlib
 streamlit>=1.50
